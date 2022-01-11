@@ -6,7 +6,7 @@ interface ICliente{
 export default function Cliente(props){
     return(
         <>
-            <span>Nome: {props.nome} </span> 
+            <span className="text-red-600"> Nome: {props.nome} </span> 
             <span>Idade: {props.idade ?? 'Não Informado'} </span> <br />
         </>
     )
